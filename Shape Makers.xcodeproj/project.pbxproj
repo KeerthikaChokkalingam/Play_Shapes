@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3793866E2A936D400092D878 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793866D2A936D400092D878 /* ColorConstants.swift */; };
+		379386702A9373AA0092D878 /* ExtensionConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793866F2A9373AA0092D878 /* ExtensionConstants.swift */; };
 		379B65A32A9323F700A44066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B65A22A9323F700A44066 /* AppDelegate.swift */; };
 		379B65A52A9323F700A44066 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B65A42A9323F700A44066 /* SceneDelegate.swift */; };
 		379B65A72A9323F700A44066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B65A62A9323F700A44066 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		379B65BA2A9323F800A44066 /* Shape_MakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B65B92A9323F800A44066 /* Shape_MakersTests.swift */; };
 		379B65C42A9323F800A44066 /* Shape_MakersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B65C32A9323F800A44066 /* Shape_MakersUITests.swift */; };
 		379B65C62A9323F800A44066 /* Shape_MakersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B65C52A9323F800A44066 /* Shape_MakersUITestsLaunchTests.swift */; };
+		379B65E02A9338B000A44066 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B65DF2A9338B000A44066 /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3793866D2A936D400092D878 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		3793866F2A9373AA0092D878 /* ExtensionConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionConstants.swift; sourceTree = "<group>"; };
 		379B659F2A9323F700A44066 /* Shape Makers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shape Makers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		379B65A22A9323F700A44066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		379B65A42A9323F700A44066 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		379B65BF2A9323F800A44066 /* Shape MakersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shape MakersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		379B65C32A9323F800A44066 /* Shape_MakersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_MakersUITests.swift; sourceTree = "<group>"; };
 		379B65C52A9323F800A44066 /* Shape_MakersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_MakersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		379B65DF2A9338B000A44066 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				379B65A22A9323F700A44066 /* AppDelegate.swift */,
 				379B65A42A9323F700A44066 /* SceneDelegate.swift */,
 				379B65A62A9323F700A44066 /* ViewController.swift */,
+				379B65DF2A9338B000A44066 /* AppConstants.swift */,
+				3793866D2A936D400092D878 /* ColorConstants.swift */,
+				3793866F2A9373AA0092D878 /* ExtensionConstants.swift */,
 				379B65A82A9323F700A44066 /* Main.storyboard */,
 				379B65AB2A9323F800A44066 /* Assets.xcassets */,
 				379B65AD2A9323F800A44066 /* LaunchScreen.storyboard */,
@@ -261,6 +270,9 @@
 				379B65A72A9323F700A44066 /* ViewController.swift in Sources */,
 				379B65A32A9323F700A44066 /* AppDelegate.swift in Sources */,
 				379B65A52A9323F700A44066 /* SceneDelegate.swift in Sources */,
+				379386702A9373AA0092D878 /* ExtensionConstants.swift in Sources */,
+				3793866E2A936D400092D878 /* ColorConstants.swift in Sources */,
+				379B65E02A9338B000A44066 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
